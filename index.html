@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>朱世举 | 影像档案桌面</title>
+    <meta
+      name="description"
+      content="朱世举数字媒体艺术作品集，AIGC影像、数字摄影、剪辑叙事与设计实验。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="desktop-bg" aria-hidden="true">
+      <span class="glow glow-a"></span>
+      <span class="glow glow-b"></span>
+      <span class="glow glow-c"></span>
+    </div>
+
+    <main class="desktop-shell" aria-label="朱世举影像档案桌面">
+      <header class="top-bar">
+        <div class="system-name">
+          <i></i>
+          <span>Collection of Works - Zhu Shiju</span>
+        </div>
+        <div class="top-actions">
+          <button class="icon-button" data-theme-toggle aria-label="切换背景亮度">☼</button>
+          <select id="languageSelect" aria-label="选择语言">
+            <option value="zh">中文</option>
+            <option value="en">ENGLISH</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
+          <time data-clock>18:36</time>
+        </div>
+      </header>
+
+      <aside class="dock" aria-label="侧边导航">
+        <button class="dock-item is-active" data-view="works" aria-expanded="true">
+          <span class="dock-icon folder-shape"></span>
+          <strong data-i18n="dockWorks">作品集</strong>
+        </button>
+
+        <button class="dock-item" data-view="about">
+          <span class="dock-icon doc-shape"></span>
+          <strong data-i18n="dockAbout">个人经历</strong>
+        </button>
+        <button class="dock-item" data-view="honors">
+          <span class="dock-icon terminal-shape"></span>
+          <strong data-i18n="dockHonors">竞赛荣誉</strong>
+        </button>
+      </aside>
+
+      <section class="identity-panel">
+        <p data-i18n="identityRole">AIGC VIDEO / DIGITAL IMAGING / EDITING</p>
+        <img class="signature-name" src="site-assets/name-zhu-shiju-mark.png" alt="朱世举" />
+        <span data-i18n="identitySub">数字媒体艺术 · 影像档案桌面</span>
+      </section>
+
+      <section class="workspace-window" data-window>
+        <div class="window-titlebar">
+          <strong data-window-title>作品集</strong>
+        </div>
+
+        <div class="window-content is-active" data-panel="works">
+          <div class="filter-row" aria-label="作品分类">
+            <button class="is-active" data-filter="all" data-i18n="filterAll">全部</button>
+            <button data-filter="video" data-i18n="filterVideo">影像</button>
+            <button data-filter="image" data-i18n="filterImage">图像</button>
+          </div>
+          <div class="project-grid" data-project-grid data-active-filter="all">
+            <button class="project-card video-card" data-kind="video" data-open-project="yinde">
+              <img src="site-assets/cover-yinde.webp" alt="《因德而生：一字成城》封面" />
+              <span>AIGC 影像</span>
+              <strong>《因德而生：一字成城》</strong>
+            </button>
+            <button class="project-card video-card" data-kind="video" data-open-project="she">
+              <img src="site-assets/cover-she.webp" alt="《畲 · 行歌》封面" />
+              <span>AIGC 影像</span>
+              <strong>《畲 · 行歌》</strong>
+            </button>
+            <button class="project-card video-card" data-kind="video" data-open-project="water">
+              <img src="site-assets/cover-water.webp" alt="《水脉德州》封面" />
+              <span>剪辑叙事</span>
+              <strong>《水脉德州：两河交汇的千年运河文化》</strong>
+            </button>
+            <button class="project-card poster-card" data-kind="image" data-open-project="fanli">
+              <img src="site-assets/fanli-01.webp" alt="《繁礼归真》封面" />
+              <span>AIGC 海报</span>
+              <strong>《繁礼归真》</strong>
+            </button>
+            <button class="project-card poster-card" data-kind="image" data-open-project="choice">
+              <img src="site-assets/choice-display.webp" alt="《今日所选 明日所见》封面" />
+              <span>概念图像</span>
+              <strong>《今日所选 明日所见》</strong>
+            </button>
+          </div>
+        </div>
+
+        <div class="window-content" data-panel="about">
+          <article class="about-layout">
+            <section class="profile-hero">
+              <p class="section-kicker">PROFILE</p>
+              <h2>朱世举</h2>
+              <p>
+                数字媒体艺术专业学生，方向聚焦 AIGC 视频创作、数字摄影、剪辑叙事与文化视觉转译。具备较扎实的专业理论基础、审美判断与项目统筹经验。
+              </p>
+              <div class="resume-chip-grid">
+                <span>学校：齐鲁工业大学</span>
+                <span>专业：数字媒体艺术</span>
+                <span>毕业时间：2027.6</span>
+                <span>政治面貌：中共预备党员</span>
+                <span>籍贯：江苏徐州</span>
+              </div>
+              <div class="contact-strip">
+                <span>手机号码：15351669146</span>
+                <span>邮箱：zhushiju6@gmail.com</span>
+              </div>
+            </section>
+            <section class="resume-stack" aria-label="简历内容">
+              <div class="resume-section">
+                <h3>教育经历</h3>
+                <ul>
+                  <li><strong>专业课成绩专业排名前 10%</strong><span>在校期间持续提升专业课能力，具备扎实的专业理论基础与学习能力。</span></li>
+                  <li><strong>学院全媒体影视工作中心主席</strong><span>负责日常运营与团队管理，主导学院多项重要活动的影视拍摄工作。</span></li>
+                  <li><strong>教务处（招生办公室）勤工助学岗位</strong><span>协助招生办开展日常工作，参与招生宣传活动的策划与执行。</span></li>
+                  <li><strong>暑期“三下乡”社会实践</strong><span>负责社会实践活动拍摄、素材统筹与后期剪辑，深入一线进行取景构图与亮点捕捉。</span></li>
+                </ul>
+              </div>
+              <div class="resume-section">
+                <h3>个人荣誉</h3>
+                <p>累计获国家级奖项 5 项，省、校级奖项 12 项。主要包括第十三届未来设计师 NCDA 全国二等奖、中国大学生数字媒体科技作品及创意竞赛奖项、百度 AIGC 专项赛事奖项，以及校级“一等奖学金”“三好学生”“优秀班干部”等。</p>
+              </div>
+              <div class="resume-section">
+                <h3>项目经历</h3>
+                <ul>
+                  <li><strong>AIGC 视频创作｜项目负责人｜2025.09-2025.11</strong><span>主导多项 AIGC 视频项目的策划、生成与后期制作，探索前沿 AI 技术在数字媒体艺术中的实际落地应用，并完成多部高质量作品发布。</span></li>
+                  <li><strong>视频译制配音｜项目负责人｜2025.12-2026.03</strong><span>运用前沿 AI 大模型完成中文源视频至英语、越语的同声互译与语音合成，结合 AI 视听同步、PR 与 AE 完成字幕压制、音轨混合与视觉精修。</span></li>
+                </ul>
+              </div>
+              <div class="resume-section resume-skills">
+                <h3>掌握技能 / 自我评价</h3>
+                <p>普通话二级甲等；熟练使用 Office 办公软件；掌握即梦、ChatGPT、Gemini 等人工智能软件。性格沉稳，自驱力强，兼具扎实的审美能力与前沿技术视野，具备团队统筹与沟通协调能力。</p>
+              </div>
+            </section>
+          </article>
+        </div>
+
+        <div class="window-content" data-panel="honors">
+          <div class="honors-layout">
+            <article class="honors-intro">
+              <h2>竞赛荣誉</h2>
+              <p>累计获国家级奖项 5 项，省、校级奖项 12 项，覆盖 AIGC 影像、数字媒体竞赛与视觉设计方向。</p>
+              <div class="award-list" aria-label="主要奖项">
+                <span><strong>未来设计师 NCDA</strong>第十三届未来设计师全国高校数字艺术设计大赛 全国二等奖</span>
+                <span><strong>中国大学生数媒大赛</strong>全国大学生数字媒体科技作品及创意竞赛 全国三等奖</span>
+                <span><strong>中国大学生数媒大赛</strong>全国大学生数字媒体科技作品及创意竞赛 省赛三等奖</span>
+                <span><strong>中国好创意</strong>中国好创意暨全国数字艺术设计大赛 全国二等奖</span>
+                <span><strong>中国好创意</strong>中国好创意暨全国数字艺术设计大赛 全国三等奖</span>
+                <span><strong>中国好创意</strong>中国好创意暨全国数字艺术设计大赛 全国三等奖</span>
+              </div>
+            </article>
+            <div class="honor-board">
+              <button class="honor-card feature-honor" data-cert="site-assets/cert-ncda-2026.webp">
+                <img src="site-assets/cert-ncda-2026.webp" alt="未来设计师 NCDA 全国二等奖证书" />
+                <span>未来设计师 NCDA</span>
+                <strong>全国二等奖</strong>
+              </button>
+              <button class="honor-card" data-cert="site-assets/cert-aigc-second.webp">
+                <img src="site-assets/cert-aigc-second.webp" alt="AIGC 专项全国二等奖证书" />
+                <span>AIGC 专项</span>
+                <strong>全国二等奖</strong>
+              </button>
+              <button class="honor-card" data-cert="site-assets/cert-aigc-third.webp">
+                <img src="site-assets/cert-aigc-third.webp" alt="AIGC 专项全国三等奖证书" />
+                <span>AIGC 专项</span>
+                <strong>全国三等奖</strong>
+              </button>
+              <button class="honor-card wide-cert" data-cert="site-assets/cert-goodidea-national-third.webp">
+                <img src="site-assets/cert-goodidea-national-third.webp" alt="全国大学生数字媒体科技作品及创意竞赛全国三等奖证书" />
+                <span>中国大学生数媒大赛</span>
+                <strong>全国三等奖</strong>
+              </button>
+              <button class="honor-card wide-cert" data-cert="site-assets/cert-goodidea-provincial-third.webp">
+                <img src="site-assets/cert-goodidea-provincial-third.webp" alt="全国大学生数字媒体科技作品及创意竞赛省赛三等奖证书" />
+                <span>中国大学生数媒大赛</span>
+                <strong>省赛三等奖</strong>
+              </button>
+              <button class="honor-card" data-cert="site-assets/cert-baidu-aigc-01.webp">
+                <img src="site-assets/cert-baidu-aigc-01.webp" alt="百度 AIGC 证书" />
+                <span>百度 AIGC</span>
+                <strong>专项认证</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <section class="project-viewer" data-project-viewer aria-hidden="true">
+      <div class="project-window">
+        <div class="window-titlebar">
+          <strong data-project-titlebar>PROJECT_VIEWER</strong>
+          <button data-close-project>关闭</button>
+        </div>
+        <div class="project-viewer-body">
+          <div class="viewer-media">
+            <img data-viewer-cover alt="" />
+          </div>
+          <article class="viewer-copy">
+            <p class="section-kicker" data-viewer-kicker></p>
+            <h2 data-viewer-title></h2>
+            <p data-viewer-body></p>
+            <div class="viewer-actions">
+              <button data-play-video>播放视频</button>
+              <button data-back-folder>返回文件夹</button>
+            </div>
+            <div class="viewer-gallery" data-viewer-gallery></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="media-lightbox" data-lightbox aria-hidden="true">
+      <button data-close-lightbox>关闭</button>
+      <img alt="" data-lightbox-image />
+      <video controls playsinline data-lightbox-video></video>
+      <audio controls data-lightbox-audio></audio>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
