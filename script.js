@@ -52,7 +52,7 @@ const projects = {
     cover: "site-assets/cover-yinde.webp",
     detailCover: "site-assets/poster-yinde.webp",
     layout: "video",
-    video: "《因德而生：一字成城》/《因德而生：一字成城》.mp4",
+    video: "site-assets/video-yinde.mp4",
     body:
       "本作品以“德”字为核心，通过AIGC技术完成视觉生成与叙事构建，将德州传统文化转译为可视化影像。利用AI生图与图生视频技术，重构“德之行、德之理、德之心”的文化逻辑，在虚实融合中呈现历史与当下的对话。作品探索人工智能在文化表达中的创作潜力，使传统精神在数字语境中获得新的生成方式与传播路径。",
     gallery: [
@@ -67,7 +67,7 @@ const projects = {
     cover: "site-assets/cover-she.webp",
     detailCover: "site-assets/poster-she.webp",
     layout: "video",
-    video: "畲 · 行歌/《畲 · 行歌》.mp4",
+    video: "site-assets/video-she.mp4",
     body:
       "本作品以畲族畲歌与十里红妆为叙事母题，借助AIGC生成机制，将口传传统与仪式性经验转译为可视化影像语言。在虚实交织的生成逻辑中，重构非遗的时间结构与空间感知，使文化由地方性叙事转向可被跨文化阅读的符号系统。以“行走中的畲歌”为叙事轴线，呈现传统在迁徙与技术介入中的再生过程，指向人机共构语境下文化表达的开放性与延展性。",
     gallery: [
@@ -82,7 +82,7 @@ const projects = {
     cover: "site-assets/cover-water.webp",
     detailCover: "site-assets/poster-water.webp",
     layout: "video",
-    video: "水脉德州两河交汇的千年运河文化/水脉德州两河交汇的千年运河文化.mp4",
+    video: "site-assets/video-water.mp4",
     body:
       "本作品以黄河与大运河在德州的交汇为核心意象，借助生成式影像技术重构运河文明叙事。通过数字非遗的方式，将德州文化转化为可感、可传播的视觉语言，并融合新中式水墨风档，构建跨文化的沉浸式品牌体验。作品在科技语境中激活地方文化记忆，促成传统与当代、地域与全球的对话，展现多元文化共生下的创新设计表达方式。",
     gallery: [
